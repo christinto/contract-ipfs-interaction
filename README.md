@@ -4,6 +4,8 @@ Simple coordination between smart contract and IPFS, with the smart contract sto
 
 #### Setup and Run
 ```
+ipfs init
+ipfs daemon                         (in separate process)
 ipfs add -r files
 ipfs name publish <hash of files directory>
 npm install
