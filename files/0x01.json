@@ -1,0 +1,23 @@
+{
+    "id": "0x01",
+    "location": {
+        "lat": 51.45657,
+        "lng": 7.01228
+    },
+    "plug": 2,
+    "owner": {
+        "address": "0xb06fef0a4ecaa3e7c57cfbc4215d178a6a908ef8",
+        "name": "Bob Fossil"
+    },
+    "address": {
+        "street": "Lindenalle 12",
+        "city": "Essen",
+        "postcode": "45127",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany"
+    },
+    "pricing": {
+        "model": 2,
+        "base": 5
+    }
+}

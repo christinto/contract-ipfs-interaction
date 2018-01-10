@@ -1,0 +1,23 @@
+{
+    "id": "0x02",
+    "location": {
+        "lat": 51.50853,
+        "lng": -0.12574
+    },
+    "plug": 3,
+    "owner": {
+        "address": "0xfa293e073ea9fcc476e2d1986cdd464105234055",
+        "name": "Dixon Bainbridge"
+    },
+    "address": {
+        "street": "24 Old Street",
+        "city": "London",
+        "postcode": "EC1V 2AB",
+        "state": "Hackney",
+        "country": "United Kingdom"
+    },
+    "pricing": {
+        "model": 3,
+        "base": 10
+    }
+}
