@@ -4,6 +4,8 @@ Simple coordination between smart contract and IPFS, with the smart contract sto
 
 #### Setup and Run
 ```
+ipfs add -r files
+ipfs name publish <hash of files directory>
 npm install
 node_modules/.bin/testrpc -u 0      (in separate process)
 node_modules/.bin/truffle migrate
