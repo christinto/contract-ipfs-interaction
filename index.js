@@ -4,6 +4,8 @@ const ipfsApi = require('ipfs-api');
 const web3 = new Web3('http://localhost:8545');
 const ipfs = ipfsApi();
 
+//For this example, Referrer was name of contract.
+// ADDR is the contract address location from truffle migrate contract deployment
 const referrerAddress = process.env.ADDR;
 const referrerAbi = require('./build/contracts/Referrer.json').abi;
 
@@ -24,6 +26,7 @@ async function refer(content) {
     return contractState;
 }
 
+// looks for contract address and then the json properties of the uploaded files, owner.name 
 async function displayOperatorNames(referralAddress) {
     console.log('retreiving content from ipfs');
     const location = await ipfs.name.resolve(referralAddress);
