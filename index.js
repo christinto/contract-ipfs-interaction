@@ -26,7 +26,7 @@ async function refer(content) {
     return contractState;
 }
 
-// looks for contract address and then the json properties of the uploaded files, owner.name 
+// looks for contract address and then the json properties of the uploaded files, id & owner.name
 async function displayOperatorNames(referralAddress) {
     console.log('retreiving content from ipfs');
     const location = await ipfs.name.resolve(referralAddress);
